@@ -1,5 +1,6 @@
 h1 {
     text-align: center;
+    font-size: 2em;
     width: 25%;
     margin-left: auto;
     margin-right: auto;
@@ -7,5 +8,39 @@ h1 {
     border: 3px solid rgb(252, 115, 115);
     border-radius: 2em;
     font-weight: bold;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+}
+.leftPanel {
+    float: left;
+    width: 15%;
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 4%;
+    margin-top: 10%;
+    border: 2px solid black;
+}
+.rightPanel {
+    width: 15%;
+    float: right;
+    font-family: 'Times New Roman', Times, serif;
+    margin-right: 4%;
+    margin-top: 10%;
+    border: 2px solid black;
+}
+.display {
+    float: left;
+    padding: 1%;
+    border: 2px solid black;
+    margin-top: 15%;
+    overflow-x: hidden;
+    overflow-y: auto;
+    scroll-behavior: smooth;
+    width: 55%;
+    height: 25rem;
+    margin-left: 2%;
+    margin-top: 10%;
+}
+.topPanel {
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid black;
 }
