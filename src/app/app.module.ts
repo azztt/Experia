@@ -6,9 +6,9 @@ import { ExpenComponent } from './expen/expen.component';
 import { GraphComponent } from './graph/graph.component';
 import { CreditComponent } from './credit/credit.component';
 import { RemainComponent } from './remain/remain.component';
-import { YearComponent } from './year/year.component';
-import { MonthComponent } from './month/month.component';
-import { DayComponent } from './day/day.component';
+// import { YearComponent } from './year/year.component';
+// import { MonthComponent } from './month/month.component';
+// import { DayComponent } from './day/day.component';
 import { DisplayComponent } from './display/display.component';
 // import { SidePanelComponent } from './side-panel/side-panel.component';
 
@@ -19,9 +19,9 @@ import { DisplayComponent } from './display/display.component';
     GraphComponent,
     CreditComponent,
     RemainComponent,
-    YearComponent,
-    MonthComponent,
-    DayComponent,
+    // YearComponent,
+    // MonthComponent,
+    // DayComponent,
     DisplayComponent,
   ],
   imports: [

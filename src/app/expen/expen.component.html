@@ -1,3 +1,10 @@
-<h3>
-  Expenditure
-</h3>
+<div>
+  <h3 (click)="selectedExpen()">
+      Expenditure
+  </h3>
+  <ul class="labelc" *ngIf="issLab()">
+    <li *ngFor="let slab of tlab" (click)="onSelect(label)">
+      {{slab}}
+    </li>
+  </ul>
+</div>
